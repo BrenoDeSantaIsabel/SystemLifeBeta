@@ -16,7 +16,7 @@ public SystemLifeBeta(){}
            while (true){
            if(lifefull<=100) {
                System.out.println("machucado nivel1 ");
-               
+               // falha aki se a vida for menor ou igual a 100 ele repete sem parar
        }
             if(lifefull<=50){
            System.out.println("machucado nivel2 ");
