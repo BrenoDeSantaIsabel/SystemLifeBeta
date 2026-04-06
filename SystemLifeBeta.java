@@ -17,6 +17,8 @@ public SystemLifeBeta(){}
            if(lifefull<=100) {
                System.out.println("machucado nivel1 ");
                // falha aki se a vida for menor ou igual a 100 ele repete sem parar
+               // atualizado agora nao repete mais com break
+               break;
        }
             if(lifefull<=50){
            System.out.println("machucado nivel2 ");
@@ -38,5 +40,7 @@ public SystemLifeBeta(){}
             }
             public void regensystem(){ 
             
+            //plano pro futuro adicionar um timer ou ele vai funcionar pelo tempo que o programa
+            //continuar aberto em loop ele vai regenerar um tanto de vida
         }
             }
